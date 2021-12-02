@@ -1,0 +1,8 @@
+<div class="container">
+  <button class="btn" (click)="auth.loginWithRedirect()">Log in</button>
+  <button class="btn" (click)="logout()">Log out</button>
+</div>
+<div>
+  <h4>User Infomation:</h4>
+  <pre>{{ profileJson | json }}</pre>
+</div>
